@@ -32,14 +32,32 @@
         <input type="password" name="txtpasword" id="txtpasword">
         <br>
         <label for="txtEmail">email</label>
-        <input type="email" name="txtEmail" id="txtEmail" required> 
+        <input type="email" name="txtEmail" id="txtEmail"> 
         <!--required es requerir-->
         <br>
-        <select name="localidad" id="localidad"></select> 
-        <option value="localidad">san justo</option> 
+        <select name="localidad" id="localidad"> 
+        <option value="localidad">sanjusto</option> 
         <option value="localidad">videla</option>
-        <option value="localidad">santafe</option>      
-        <input type="submit" value="enviar">
-    </form>
+        <option value="localidad">emilia</option>
+    </select>
+    <input type="hidden" name="hidden" value="black">
+       <br>
+       <label for="reset">resetear valores</label>
+       <input type="reset" value="reset">
+       <br>
+       <label for="hijos"></label>
+       <input:NUmber></input:NUmber>
+       <br>
+       <label for="sexo"></label>
+       <input type="radio" name="sexo" id="sexo">hombre
+       <input type="radio" name="sexo" id="sexo">mujer
+       <br>
+       <label for="documento">documento(fila)</label>
+       <input type="file" name="documento" id="documento"> 
+       <br>
+
+       <input type="submit" value="enviar">
+        </form>
+        <script type="../jw/codugo.js"></script>
 </body>
 </html>
