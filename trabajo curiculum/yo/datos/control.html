@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>contoles de formulario</title>
+</head> <!-- <.!.-.- es para corchetes-->
 <body>
-    
+    <h1>controles de formularios</h1>
+    <form action="../index.html" method="get">
+        <label for="txtNombre">nombre(texbox)</label>
+        <input type="text" name="txtNombre" id="txtNombre" placeholder="escriva su nombre aqui">
+        <br>
+        <label for="txtApellido">apellido(texbox)</label>
+        <input type="text" name="txtApellido" id="txtApellido" placeholder="escriva su apellido aqui">
+     <!--label y distintos input-->
+        <br> 
+        <label for="soltero"></label>
+        <input type="text" name="soltero" id="soltero" placeholder="">
+        <br>
+        <label for="">soltero</label>
+        <input type="checkbox" name="soltero" id="chec">
+        <br>
+        <label for="">fecha de nacimiento</label>
+        <input type="date" name="fecha de namimiento" id="nacimiento">    
+        <br>
+        <label for="hora"></label>
+        <input type="time" name="horario ticket(time)" id="timehorario">
+        <br>
+        <label for="txtpasword">Password</label>
+        <input type="password" name="txtpasword" id="txtpasword">
+        <br>
+        <label for="txtEmail">email</label>
+        <input type="email" name="txtEmail" id="txtEmail" required> 
+        <!--required es requerir-->
+        <br>
+        <select name="localidad" id="localidad"></select> 
+        <option value="localidad">san justo</option> 
+        <option value="localidad">videla</option>
+        <option value="localidad">santafe</option>      
+        <input type="submit" value="enviar">
+    </form>
 </body>
 </html>
