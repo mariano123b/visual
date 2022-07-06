@@ -5,7 +5,7 @@ function cargarAyuda_nombre_con_mayusculas(control){
         var h3=document.getElementById("h3ayuda");
         
         h3.innerHTML=ayudas[control.name];
-    }
+    } /**/
     function cargarAyudaNombre(){
         var h3=document.getElementById("h3ayuda");
         h3.innerHTML="Ingrese con mayúsculas su nombre";
