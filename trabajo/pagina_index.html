@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <title>my pagina</title>
+</head>
+<body bgcolor="red"><!--color hoja-->
+  <h1>Bienvenido a civergame</h1> 
+  <nav class="navbar navbar-expand-sm bg-dark"> <!-- bg- para cambiar de color(barra)-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="pagina_index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="resto/categorias.html">Categorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resto/recomendaciones.html">Recomendaciones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Soporte
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="resto/quejas.html">Quejas</a></li>
+                  <li><a class="dropdown-item" href="resto/errores.html">Errores</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="resto/rendimiento.html">Rendimiento</a></li>
+                  <li><a class="dropdown-item" href="resto/actualizasiones.html">Actualizacion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>   
+    <h5>juegos recomendados del editor</h5>
+    <div class="row"> <!--cuaro en movimiento -->
+      <div class="col">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000"> <!--segundos independiente-->
+                  <img src="imagenes/counter_strike.png" class="d-block w-2" alt="primera"> <!--esta parte alt es para sordos -->
+                </div>
+                <div class="carousel-item" data-bs-interval="500"> <!--segundos grupal-->
+                  <img src="imagenes/rainbow-six-siege.jpg" class="d-block w-50" alt="segunda">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/the_forest.jpeg" class="d-block w-2" alt="tercera">
+                </div>              
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>                
+     </div>
+     </div>  
+    <h3>Descripcion de los juegos </h3>
+      <p>Counter strike go: es el unico clasico de esta lista su reputacion habla sola</p>
+      <p>son of the the forest: este juego es la continuacion de the forest, un gran juego de supervivencia con buenos graficos 
+        y con la inteligencia artificial mas desarrollada muy desarrollada.
+      </p>
+      <p>rainbow six: es una de las joyas de ubisoft con muy buena jugabilidad, gran bariedad de agentes para diversificar las partidas</p>
+    <tbody>
+      <td>
+        <a href="otas_paginas/pagina_2.html">"2"</a> <!--links a otras paginas -->
+      </td>
+      <td>
+        <a href="http://mrdoob.com/projects/chromeexperiments/google-gravity/"> ramdom</a>
+      </td>
+    </tbody>
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>
